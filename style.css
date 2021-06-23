@@ -396,17 +396,22 @@ a{
           width: 100%;
       }
 
-    .nav{
-       position: fixed;
-       right: -100%;
-       flex-direction: column;
-       background-color: #fff;
-       border-radius: 10px;
-       width: 500px;
-       margin: auto;
-       padding-left: 10px;
-       transition: 0.3s;
-    }
+      .nav{
+        position: fixed;
+        right: -100%;
+        top: 5px;
+        flex-direction: column;
+        background-color: hsl(0, 0%, 48%);
+        color: #fff;
+        padding: 3% 2%;
+        border-radius: 10px;
+        width: 300px;
+        margin: auto;
+        padding-left: 10px;
+        transition: 0.5s;
+        font-size: 20px;
+        text-align: left;
+     }
     .nav.active{
         right: 0;
     }
