@@ -11,6 +11,8 @@ const radio3 = document.querySelector(".radio3");
 const pledgeReward4 = document.querySelector(".ple-select4");
 const radio4 = document.querySelector(".radio4");
 const select = document.querySelector(".selected")
+const select2 = document.querySelector(".selected1")
+const select3 = document.querySelector(".selected2")
 // hamburger
 const hamburger = document.querySelector(".hamburger")
 const navigation = document.querySelector(".nav")
@@ -21,7 +23,7 @@ for(i = 0; i < rewardSelect.length; i++){
         backProject.classList.add("active")
     })
 }
-// modal close
+// modal closes
 modalClose.addEventListener("click", () => {
     backProject.classList.remove("active")
 })
@@ -36,13 +38,18 @@ pledgeReward.addEventListener("click", () =>{
 })
 pledgeReward2.addEventListener("click", () =>{
     radio2.checked = true;
-    select.classList.toggle("active")
+    select.classList.add("active")
 })
 pledgeReward3.addEventListener("click", () =>{
     radio3.checked = true;
+    select2.classList.add("active");
 })
 pledgeReward4.addEventListener("click", () =>{
     radio4.checked = true;
+    select3.classList.add("active");
 })
+
+
+
 
 

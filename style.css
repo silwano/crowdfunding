@@ -305,6 +305,22 @@ a{
   .selected.active{
       display: block;
   }
+  .selected1{
+    display: none;
+    width: 640px;
+    right: 48px;
+  }
+  .selected1.active{
+      display: block;
+  }
+  .selected2{
+    display: none;
+    width: 640px;
+    right: 48px;
+}
+.selected2.active{
+    display: block;
+}
   .pledge-enter{
       padding: 0 4%;
       padding-top: 5%;
